@@ -9,7 +9,7 @@ url2 = "https://hotels4.p.rapidapi.com/properties/list"
 photo_url = "https://hotels4.p.rapidapi.com/properties/get-hotel-photos"
 headers = {
     'x-rapidapi-host': "hotels4.p.rapidapi.com",
-    'x-rapidapi-key': "da80c3142emsh88cb3bd3e4b0ae8p150e0ajsn445a6569ca9c"
+    'x-rapidapi-key': "07d99171bfmsh7d7975a96be3f57p11d187jsn35afb1fe5c6c"
 }
 
 bot = telebot.TeleBot(TOKEN)
