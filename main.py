@@ -68,7 +68,10 @@ def message_reply(message):
         bot.register_next_step_handler(msg, get_city_name, sort_type=message.text)
     elif message.text == "history":
         global history
-        bot.send_message(message.chat.id, history)
+        if history:
+            bot.send_message(message.chat.id, history)
+        else:
+            bot.send_message(message.chat.id, "-history is empty-")
     elif message.text == "Exit":
         bot.send_message(message.chat.id, "See ya!")
     else:
