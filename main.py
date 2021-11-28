@@ -224,7 +224,7 @@ def getMessage():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://secure-fortress-71237.herokuapp.com/' + TOKEN)
+    bot.set_webhook(url='https://glacial-shore-08606.herokuapp.com/' + TOKEN)
     return "!", 200
 
 
